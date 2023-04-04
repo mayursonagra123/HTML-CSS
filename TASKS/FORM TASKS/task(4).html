@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .x
+        {
+            height: 100%;
+            width: 100%;
+            background-image: url(img.jpg);
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+        }
+
+        .form-box
+        {
+            width: 380px;
+            height: 480px;
+            background: white;
+            margin:11% auto;
+            position: relative;
+            padding: 5px;
+            box-shadow: 0 0 20px green;
+        
+        }
+        .button-box
+        {
+            
+            width: 220px;
+            margin: 35px auto;
+            position: relative;
+            box-shadow: 0 0 20px 3px lightblue;
+            border-radius: 35px;
+        }
+
+        .btn
+        {
+            padding:10px 30px ;
+            background: transparent;
+            border: 0;
+            outline: none;
+            position: relative;
+
+
+        }
+
+        #y
+        {
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 110px;
+            height: 100%;
+            background: linear-gradient(to right,#9AFBFA,#D071F9);
+            border-radius: 30PX;
+
+           
+        }
+
+        .iko
+        {
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .iko img
+        {
+            width: 30px;
+            margin: 0 10px;
+            box-shadow: 0 0 10px 0 #f7f7f7;
+            border-radius: 40%;
+        }
+
+        .form
+        {
+            top: 180px;
+            position: absolute;
+            width: 280px;
+            
+        }
+
+        .fm
+        {
+            width: 100%;
+            padding: 10px 0;
+            margin: 5px 0;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            padding: 10px;
+            margin-left: 30px;
+
+        }
+
+        .submit
+        {
+            width: 85%;
+            padding: 10px 25px;
+            margin-bottom: auto;
+            background: linear-gradient(to right,#9AFBFA,#D071F9);
+            border-radius: 20px;
+            border: none;
+            margin: 60px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="x"> 
+        <div class="form-box">
+            <div class="button-box">
+
+                <div id="y"></div>
+
+                <button type="button" class="btn">Login</button>
+                <button type="button" class="btn">Register</button>
+            </div>
+       
+
+        <div class="iko">
+            <img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_1280.png">
+            <img src="https://cdn-icons-png.flaticon.com/512/2702/2702602.png">
+            <img src="https://www.wellybox.com/wp-content/uploads/2023/02/pngkey.com-twitter-logo-png-transparent-27646.png">
+
+        </div>
+       
+
+           <form class="form"> 
+               <input type="text" class="fm" placeholder="Username" required>
+               <input type="password" class="fm" placeholder="password" required>
+               <button type="submit" class="submit">Login</button>
+           </form>
+        </div>
+    </div>
+    
+</body>
+</html>

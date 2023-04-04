@@ -6,82 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-        
-        body
-        {
-            background: linear-gradient( to left,lightblue,rgb(1, 141, 255));
+         *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
         }
 
-        .color
-        {
-            color: white;
-            margin-left:10%;
-            margin-top: 5%;
+          body
+          {
+            background: linear-gradient(to left,red,blue);
+          }
+          .box
+          {
+              height: 400px;
+              width: 400px;
+              border:2px solid black;
+              margin: 200px auto;
+              position: relative;
+              overflow: hidden;
+              display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .box::after
+          {
+            content:"";
             
-        }
-
-        div
-        {
-            color: white;
-            padding:10px;
-            margin-left:10%;
-            font-size:20px ;
+            height:700px;
+            width:700px;
+            background:linear-gradient(45deg, red,blue,pink,gray,green,yellow);
+            position: absolute;
+            top:-150px;
+            left:-100px;
+            transition:2s;
             
-        }
-
-        input
+          }
+        .box:hover.box::after
         {
-            padding: 5px;
+            transform:rotate(360deg);
         }
-
-       
+        .box2{
+            height: 350px;
+            width: 350px;
+            /* border: 2px solid black; */
+            z-index: 2;
+            background-color: white;
+              
+        }
+         
     </style>
     </head>
     <body>
 
-        <form>
-
-            <h1 class="color">Contact form</h1>
-
-            <h3 style="color: white; margin-left: 10%;">please fill in your
-                information and we'll be sending your order in no time.</h3>
-
-            <div>Your Name <input type="text" required placeholder="First Name">
-                <input type="text" placeholder="Last Name"></div>
-
-            <div>Your Email <input type="email" required style="width:21%;"
-                    placeholder="e.g.hello@content.net"></div>
-
-            <div>Phone* <input type="text" required placeholder="###" style="width: 7%;"> <input
-                    type="text" placeholder="###" style="width: 7%;"> <input type="text"
-                    placeholder="###" style="width: 7%;"></div>
-
-            <div>Mwssage Subject*
-                <select style="width: 10%;">
-                    <option>Other</option>
-                </select>
-            </div>
-            <div>Message*
-                 <textarea  cols="50" rows="5"></textarea>
-            </div>
-
-            <div>Verification*</div>
-
-           <div>
-             <button type="submit">Submit Form</button>
-             </div>
-            
-
-
-
-        </form>
-
-
-
-
-
-
-
+        <div class="box">
+            <div class="box2"></div>
+        </div>
 
     </body>
 </html>

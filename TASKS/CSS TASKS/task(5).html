@@ -1,66 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <style>
-         *{
-            box-sizing: border-box;
-            margin: 0px;
-            padding: 0px;
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(to left,red,blue);
         }
-
-          body
-          {
-            background: linear-gradient(to left,red,blue);
-          }
-          .box
-          {
-              height: 400px;
-              width: 400px;
-              border:2px solid black;
-              margin: 200px auto;
-              position: relative;
-              overflow: hidden;
-              display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          .box::after
-          {
-            content:"";
-            
-            height:700px;
-            width:700px;
-            background:linear-gradient(45deg, red,blue,pink,gray,green,yellow);
+        .main{
+            width: 150px;
+            height: 150px;
+            margin: 400px auto;
+            background: lightcoral;
+            border-radius: 50%;
+            position: relative;
+        }
+        .x, .y, .z, .a{
+            width: 150px;
+            height: 150px;
+            background: lightcoral;
+            border-radius: 50%;
             position: absolute;
-            top:-150px;
-            left:-100px;
-            transition:2s;
-            
-          }
-        .box:hover.box::after
-        {
-            transform:rotate(360deg);
+            top: 0%;
+            left: 0%;
         }
-        .box2{
-            height: 350px;
-            width: 350px;
-            /* border: 2px solid black; */
-            z-index: 2;
-            background-color: white;
-              
+        .main:hover .x{
+            background: limegreen;
+            transform: scale(1.5);
+            opacity: 0;
+            transition: 2s;
         }
-         
+        .main:hover .y{
+            background: sandybrown;
+            transform: scale(2);
+            opacity: 0;
+            transition: 2s;
+
+        }
+        .main:hover .z{
+            background: teal;
+            transform: scale(2.5);
+            opacity: 0;
+            transition: 2s;
+        }
+        .main:hover .a{
+            background: burlywood;
+            transform: scale(3);
+            opacity: 0;
+            transition: 2s;
+        }
     </style>
-    </head>
-    <body>
-
-        <div class="box">
-            <div class="box2"></div>
-        </div>
-
-    </body>
+</head>
+<body>
+    <div class="main">
+        <div class="x"></div>
+        <div class="y"></div>
+        <div class="z"></div>
+        <div class="a"></div>
+    </div>
+</body>
 </html>
