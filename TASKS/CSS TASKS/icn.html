@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            height: 100px;
+            width: 100px;
+            background: lightcoral;
+            margin: 200px auto;
+        }
+        .z{
+            height: 100px;
+            width: 100px;
+            background: lightgreen;
+            margin: 200px auto;
+            scale: 0;
+            transition: 1s;
+            position: relative;
+        }
+        .x:hover .z{
+            scale: 1;
+        }
+        .x img{
+
+            width: 50px;
+            height: 50px;
+            margin: 25px 25px;
+            position: absolute;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="x">
+        <img src="https://img.icons8.com/material/24/null/mac-client.png"/>
+        <div class="z">
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x
+        {
+            height: 300px;
+            width: 500px;
+            background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+            background-repeat: no-repeat;
+            margin: 200px auto;
+            background-position: -60px 0px;
+            transition:1s;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            box-shadow: 0 0 30px gray;
+        }
+        .x:hover
+        {
+            background-position: -100px 0px;
+        }
+
+        .y
+        {
+            height: 200px;
+            width: 400px;
+            background-color: transparent;
+            border: 5px solid #fff; 
+            border-color:red;
+            transition: 0.5s;
+            opacity: 0;
+            margin-left: -40px;
+            position: absolute;
+            top: 40px;
+            left: 50px;
+        }
+        .y
+        {
+            color: #fff;
+            display: flex;
+            font-size: 30px;
+            justify-content: right;
+            align-items: center;
+        
+
+        }
+
+        .x:hover .y 
+        {
+            opacity:1;
+            margin-left: 0;
+            transition: 1s;
+        }
+        .z
+        {
+            height: 300px;
+            width: 600px;
+            margin-top: 100px;
+            margin-right: 90px;
+            text-align: right;
+            font-size: 50px;
+            color: #fff;
+            
+        }
+        .x span::first-letter
+        {
+            color: red;
+        }
+       
+       
+
+    </style>
+</head>
+<body>
+    <div class="x">
+        <span class="z">mayur</span>
+        <div class="y">
+            NEW STAYLE CLOTH
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .main
+        {
+            height:400px;
+            width:500px;
+            background:black;
+            margin: 200px auto;
+            position: relative;
+            overflow: hidden;
+            transition: 1s;
+        }
+        .main:hover
+        {
+            background:lightgreen;
+            transition: 1ss;
+        }
+        img
+        {
+            position: absolute;
+            top:30px;
+            left:220px;
+            height:70px;
+        }
+        .text
+        {
+            height:300px;
+            width:500px;
+            /* border: 1px solid red; */
+            position: absolute;
+            top:100px;
+            text-align: center;
+            color:green;
+           
+        }
+        p
+        {
+            color:#fff;
+            font-size:25px;
+        }
+        .box{
+            width: 150px;
+            height: 150px;
+            background:lightgreen;
+            border-radius: 50%;
+            position: relative;
+            top:250px;
+            left:400px;
+            opacity: 0;
+
+        }
+        .x, .y, .z, .a{
+            width: 150px;
+            height: 150px;
+            background:green;
+            border-radius: 50%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+        .main:hover .x{
+            background: limegreen;
+            transform: scale(1.5);
+            opacity: 0;
+            transition:1s;
+        }
+        .main:hover .y{
+            background: sandybrown;
+            transform: scale(2);
+            opacity: 0;
+            transition:1s;
+
+        }
+        .main:hover .z{
+            background: teal;
+            transform: scale(2.5);
+            opacity: 0;
+            transition:1s;
+        }
+        .main:hover .a{
+            background: burlywood;
+            transform: scale(3);
+            opacity: 0;
+            transition:1s;
+        }
+        .main:hover .box
+        {
+            opacity: 1;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <img src="https://img.icons8.com/emoji/48/null/triangular-flag.png"/>
+        <div class="text">
+            <h2>STYLE COMPONENTS</h2>
+            <p>Need A Project Completed By<br>
+               An Expert? Let's Gol Access A<br>
+               Human Resources Consultant<br>
+                 To Answer Questions</p>
+        </div>
+        <div class="box">
+            <div class="x"></div>
+            <div class="y"></div>
+            <div class="z"></div>
+            <div class="a"></div>
+        </div>
+    </div>
+    
+</body>
+</html>

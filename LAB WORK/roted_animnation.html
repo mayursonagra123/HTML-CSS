@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        body
+        {
+           background: linear-gradient(to left,red,blue);
+        }
+           .main
+           {
+
+            height: 300px;
+            width: 300px;
+            background: lawngreen transparent;
+            border: 10px solid black transparent;
+            border-top: 10px solid lightpink;
+            margin: 200px auto;
+            border-radius: 50%;
+            padding:15px;
+
+            animation:harshit 5s infinite linear;
+
+           }
+           .main1
+           {
+
+            height:250px;
+            width:250px;
+            background: lawngreen transparent;
+            border: 10px solid black transparent;
+            border-top: 10px solid lightseagreen;
+            border-radius: 50%;
+            padding: 15px;
+            animation:harshit 3.5s infinite linear;
+
+           }
+           .main2
+           {
+
+            height:200px;
+            width:200px;
+            background: lawngreen transparent  ;
+            border: 10px solid black transparent;
+            border-top: 10px solid lightgreen;
+            border-radius: 50%;
+            animation:harshit 2.5s infinite linear;
+
+           }
+           @keyframes harshit
+           {
+
+            from{transform: rotate(0deg);}
+            to{transform:rotate(360deg);}
+
+           }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <div class="main1">
+
+            <div class="main2">
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

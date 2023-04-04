@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+    .main
+    {
+          width: 300px;
+          height: 520px;
+          /* border: 1px solid black; */
+          margin: 200px auto;
+          text-align: center;
+          box-shadow: 0 0 30px gray;       
+    }
+    .img img{
+        width: 300px;
+        height: 360px; 
+        /* border: 1px solid rgb(139, 37, 25); */
+        padding: 50px;  
+        transition:0.5s;
+    }
+    .img:hover img{
+        transform: scaleX(-1);
+    }
+    .img{
+        position: relative;
+        transition:0.8s;
+    }
+    
+.slide{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    /* border: 1px solid black; */
+    top: 0px ;
+    left: 0px;
+    font-size: 20px;
+    line-height: 45px;
+    background-color: black;
+    transition:0.8s;
+    opacity: 0;
+    
+}
+.img:hover .slide
+{
+    top: 310px;
+    left: 0;
+    opacity: 1;
+}
+
+.slide:hover
+{
+    background-color: aqua;
+}
+    p
+    {
+        font-size: 20px;
+        color: red;
+        padding: 15px;
+    }
+    pre
+    {
+        font-size: 20px;
+       
+    }
+    .cart
+    {
+        height: 25px;
+        width:250px;
+        background: lightseagreen;
+        outline:5px solid lightseagreen;
+        outline-offset: 0px;
+        text-align: center;
+        line-height: 25px;
+        margin: 25px 25px;
+
+    }
+
+    .cart:hover
+    {
+        outline:5px solid lightseagreen;
+        background: lightseagreen;
+         outline-offset: 5px;
+         transition:0.3s;
+    }
+
+    a
+    {
+    text-decoration: none;
+    color:#fff;
+    }
+    
+
+</style>
+    </head>
+    <body>
+        <div class="main">
+
+            <div class="img">
+                <img
+                    src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m4.jpg">
+                <div class="slide">
+                    <a href="#">QUICK VIEW</a>
+                </div>
+            </div>
+
+            <div class="contanor">
+                <p>Round Neck Black T-Shirt</p>
+                <pre>  <span>$190.99  <del>$159.71</del></span></pre>
+
+                <div class="cart">ADD TO CART
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

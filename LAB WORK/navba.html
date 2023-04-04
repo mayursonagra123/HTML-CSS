@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            *
+            {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        .x
+        {
+            height: 60px;
+            background-color: grey;
+            text-align: center;
+            line-height:50px;
+        }
+
+       
+
+        li
+        {
+            display:inline;
+            margin-right: 100px;
+            background-color: lightcoral transparent;
+            position: relative;
+        }
+
+        a
+        {
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .y
+        {
+            height: 2px;
+            width: 0px;
+            background-color: #000;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            transition: 0.5s;
+            
+        }
+
+        li:hover .y
+
+        {
+            width: 100%;
+        }
+
+
+    </style>
+    </head>
+    <body>
+
+        <div class="x">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                    <div class="y"></div>
+                </li>
+
+                <li>
+                    <a href="">About</a>
+                    <div class="y"></div>
+                </li>
+
+                <li>
+                    <a href="">Service</a>
+                    <div class="y"></div>
+                </li>
+
+                <li>
+                    <a href="">contact</a>
+                    <div class="y"></div>
+                </li>
+            </ul>
+        </div>
+
+    </body>
+</html>

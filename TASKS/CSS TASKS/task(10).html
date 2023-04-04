@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title><link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+        <style>
+            *
+            {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body
+            {
+                background: url(https://st2.depositphotos.com/7413918/10242/i/600/depositphotos_102423072-stock-photo-group-of-wild-animal.jpg);
+                background-repeat: no-repeat;
+                background-size:100%;
+            }
+      .main
+        {
+            height: 60px;
+            background-color:white;
+            text-align: center;
+            line-height:50px;
+            position: relative;
+        }
+        li
+        {
+            display:inline;
+            margin-right:50px;
+            background-color: lightcoral transparent;
+            position: relative;
+        }
+
+        a
+        {
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            color: #000;
+        }
+        .y
+        {
+            height:5px;
+            width: 0px;
+            background-color:blue;
+            position: absolute;
+            top:230%;
+            right: 0;
+            transition: 0.5s;
+            
+        }
+       
+                .home:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+                .Features:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+                .Categories:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+                .Elements:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+                .pages:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+                .shop:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+                .contact:hover i
+                {
+                    transform: rotatex(180deg);
+                }
+
+        li:hover .y
+
+        {
+            width: 100%;
+        }
+
+        .box1
+        {
+            height:0px;
+            width:1700%;
+            position: absolute;
+            top:45px;
+            left:-250px;
+            display: flex;
+            /* border: 1px solid black; */
+            background: #fff;
+            transition:0.5s;
+            overflow: hidden;
+
+        }
+        .box2
+        {
+            height:0px;
+            width:250px;
+            position: absolute;
+            top:45px;
+            left:0px;
+            /* border: 1px solid black; */
+            background: #fff;
+            transition:0.5s;
+            overflow: hidden;
+
+        }
+        .box3
+        {
+            height:0px;
+            width:280px;
+            position: absolute;
+            top:45px;
+            left:0px;
+            /* border: 1px solid black; */
+            background: #fff;
+            transition:0.5s;
+            overflow: hidden;
+
+        }
+        .box4
+        {
+            height:0px;
+            width:280px;
+            position: absolute;
+            top:45px;
+            left:0px;
+            /* border: 1px solid black; */
+            background: #fff;
+            transition:0.5s;
+            overflow: hidden;
+
+        }
+        .box5
+        {   
+            height:0px;
+            width:1700%;
+            position: absolute;
+            top:45px;
+            right:-450px;
+            display: flex;
+            /* border: 1px solid black; */
+            background: #fff;
+            transition:0.5s;
+            overflow: hidden;
+
+        }
+        .box6
+        {
+            height:0px;
+            width:280px;
+            position: absolute;
+            top:45px;
+            left:0px;
+            /* border: 1px solid black; */
+            background: #fff;
+            transition:0.5s;
+            overflow: hidden;
+
+        }
+       
+        .home:hover .box1
+        {
+            height:490px;
+        }
+        .Features:hover .box2
+        {
+            height:170px;
+        }
+        .Categories:hover .box3
+        {
+            height:340px;
+        }
+        .Elements:hover .box4
+        {
+            height:450px;
+        }
+        .pages:hover .box5
+        {
+            height:330px;
+        }
+        .shop:hover .box6
+        {
+            height:280px;
+        }
+        p
+        {
+            text-align: left;
+        }
+        table{
+            width: 100%;
+        }
+       tr{
+        padding-bottom:5px;
+        text-align:center;
+       }
+    </style>
+    </head>
+    <body>
+        <div class="main">
+            <ul>
+                <li class="home">
+                    <a href="">Home</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                    <div class="box1">
+                        <table border="0">
+                            <tr>
+                                <td><h1>Column 01</h1></td>
+                                <td><h1>Column 02</h1></td>
+                                <td><h1>Column 03</h1></td>
+                                <td><h1>Column 04</h1></td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+
+                <li class="Features">
+                    <a href="">Features</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                    <div class="box2">
+                        <table border="0">
+                            <tr>
+                                <td>Author Details</td>
+                            </tr>
+                            <tr>
+                                <td>Conthor Table</td>
+                            </tr>
+                            <tr>
+                                <td>Single Post Layout</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+
+                <li class="Categories">
+                    <a href="">Categories</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                    <div class="box3">
+                        <table border="0">
+                            <tr>
+                                <td>Blog Layout 01</td>
+                            </tr>
+                            <tr>
+                                <td>Blog Layout 02</td>
+                            </tr>
+                            <tr>
+                                <td>Blog Layout 03</td>
+                            </tr>
+                            <tr>
+                                <td>Blog Layout 04</td>
+                            </tr>
+                            <tr>
+                                <td>Blog Layout 05</td>
+                            </tr>
+                            <tr>
+                                <td>Blog Layout 06</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+
+                <li class="Elements">
+                    <a href="">Elements</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                    <div class="box4">
+                        <table border="0">
+                            <tr>
+                                <td>Miscellaneous</td>
+                            </tr>
+                            <tr>
+                                <td>post Grid Layout</td>
+                            </tr>
+                            <tr>
+                                <td>Post List Layot</td>
+                            </tr>
+                            <tr>
+                                <td>Post Overlay Layout</td>
+                            </tr>
+                            <tr>
+                                <td>Post Tab Layour</td>
+                            </tr>
+                            <tr>
+                                <td>Post Box Layout</td>
+                            </tr>
+                            <tr>
+                                <td>Post Slider Layout</td>
+                            </tr>
+                            <tr>
+                                <td>Team Layout</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li class="pages">
+                    <a href="">pages</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                    <div class="box5">
+                        <table border="0">
+                            <tr>
+                                <td><h2>Column 01</h2></td>
+                                <td><h2>Column 02</h2></td>
+                                <td><h2>Column 03</h2></td>
+                                <td><h2>Column 04</h2></td>
+                            </tr>
+                            <tr>
+                                <td>About Us</td>
+                                <td>Contact</td>
+                                <td>Login</td>
+                                <td>Registration</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+                            <tr>
+                                <td>Home 01-Main</td>
+                                <td>Home 08-Travels </td>
+                                <td>Home 15-Animals</td>
+                                <td>Home 22-Obituaries</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </li>
+                <li class="shop">
+                    <a href="">shop</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                    <div class="box6">
+                        <table border="0">
+                            <tr>
+                                <td>Shop</td>
+                            </tr>
+                            <tr>
+                                <td>Cart</td>
+                            </tr>
+                            <tr>
+                                <td>Checkout</td>
+                            </tr>
+                            <tr>
+                                <td>My account</td>
+                            </tr>
+                            <tr>
+                                <td>Shop Details</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </li>
+                <li class="contact">
+                    <a href="">Contact</a>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="y"></div>
+                </li>
+            </ul>
+        </div>
+
+    </body>
+</html>

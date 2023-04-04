@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(to left,red,blue);
+        }
+        .main{
+            width: 150px;
+            height: 150px;
+            margin: 400px auto;
+            background: lightcoral;
+            border-radius: 50%;
+            position: relative;
+        }
+        .x, .y, .z, .a{
+            width: 150px;
+            height: 150px;
+            background: lightcoral;
+            border-radius: 50%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+        .main:hover .x{
+            background: limegreen;
+            transform: scale(1.5);
+            opacity: 0;
+            transition: 2s;
+        }
+        .main:hover .y{
+            background: sandybrown;
+            transform: scale(2);
+            opacity: 0;
+            transition: 2s;
+
+        }
+        .main:hover .z{
+            background: teal;
+            transform: scale(2.5);
+            opacity: 0;
+            transition: 2s;
+        }
+        .main:hover .a{
+            background: burlywood;
+            transform: scale(3);
+            opacity: 0;
+            transition: 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="x"></div>
+        <div class="y"></div>
+        <div class="z"></div>
+        <div class="a"></div>
+    </div>
+</body>
+</html>

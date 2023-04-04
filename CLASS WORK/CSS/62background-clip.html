@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ex1 
+        {
+            background: lightblue;
+            padding: 35px;
+            border:10px solid rgba(0,0,0,.23);
+            background-clip: border-box;
+        }
+
+        .ex2
+        {
+            background: lightblue;
+            padding: 35px;
+            border:10px solid black;
+            border:10px solid rgba(0,0,0,.23);
+            background-clip: padding-box;
+        }
+
+        .ex3 
+        {
+            background: lightblue;
+            padding: 35px;
+            border:10px solid rgba(0,0,0,.23);
+            background-clip: content-box;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>background-clip:border-box;</h2>
+  <div class="ex1">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae voluptatum excepturi maxime itaque qui cum sit, quasi ea nobis dolorem error maiores quod cupiditate impedit consequatur corporis odit quam?
+  </div>
+
+
+  <h2>background-clip:padding-box;</h2>
+  <div class="ex2">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae voluptatum excepturi maxime itaque qui cum sit, quasi ea nobis dolorem error maiores quod cupiditate impedit consequatur corporis odit quam?
+  </div>
+
+  <h2>background-clip:content-box;</h2>
+  <div class="ex3">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur beatae voluptatum excepturi maxime itaque qui cum sit, quasi ea nobis dolorem error maiores quod cupiditate impedit consequatur corporis odit quam?
+  </div>
+    
+</body>
+</html>
