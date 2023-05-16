@@ -6,47 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-        .x
-        {
-            height: 100px;
-            width: 200px;
-            background-color: green transparent ;
-            margin: 150px auto;
+        .x{
+            width: 150px;
+            height: 60px;
+            background-color: #E8BC5A;
+            /* border: 1px solid black; */
+            border-radius: 50px;
+            font-size: 12px;
+            text-align: center;
             position: relative;
             overflow: hidden;
-            border: 2px solid blue transparent;
-            line-height: 50px;
-            text-align: center;
-            border-radius: 100px;
-            box-shadow:0 15px 50px lightpink inset, 0 0 15px black;
-
         }
-        .x::after
-        {
-            content: "mj";
+        .y{
+            width: 150px;
+            height: 60px;
+            background-color:white;
+            /* border: 1px solid black; */
+            border-radius: 50px;
+            font-size: 12px;
             text-align: center;
-            font-size: 50px;
-            line-height: 100px; 
-            height: 100px;
-            width: 200px;
-            background:linear-gradient(red,blue);
             position: absolute;
-            top: 0;
-            left: -100%;
-            transition:1s;
+            top: 100%;
+            left: 0%;
+        transition: 0.4s;
+
+        
         }
-        .x:hover::after
-        {
-            left: 0;
+        .x h1{
+            position: absolute;
+            top: 0%;
+            left: 12%;
+            z-index: 1;
         }
 
+    .x:hover .y{
+        top: 0%;
+        transition: 0.4s;
+    }
 
     </style>
     </head>
     <body>
-        <div class="x">
-            <h1>Mayur</h1>
 
+        <div class="x">
+            <h1>Read more</h1>
+            <div class="y"></div>
         </div>
     </body>
 </html>

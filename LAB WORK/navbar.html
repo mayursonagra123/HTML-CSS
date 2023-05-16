@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .header{
+            width: 100%;
+            height: 150px;
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-rows: 20% 60% 20%;
+        }
+        .header-top{
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 5fr 5fr;
+            grid-template-rows: 100%;
+        }
+        .top-menu ul{
+            margin-left:23px;
+        }
+        .top-menu li{
+         display: inline-block;
+         padding-left:50px;
+         line-height: 23px;
+        }
+       
+        .header-middle{
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 14% 12% 50% 20%;
+        }
+        .header-bottum{
+            border: 1px solid black;
+        }
+        .header-bottum li
+        {
+            display: inline-block;
+            padding-left:20px;
+            line-height: 23px;
+        }
+
+        .top-menu{
+            border: 1px solid black;
+        }
+        .top-right{
+            border: 1px solid black;
+            text-align:right;
+            padding-right:80px;
+        }
+       
+        .middle-text
+        {
+            border: 1px solid black;
+        }
+        .middle-text img
+        {
+            padding-left:70px;
+            display: block;
+            height:80%;
+            width: 100%;
+        }
+        .middle-cetegari
+        {
+            border: 1px solid black;
+            text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .middle-search
+        {
+            border: 1px solid black;
+            margin:5px;
+            position: relative;
+        }
+        .middle-search img
+        {
+            position: absolute;
+            top: 36%;
+            right:22%;
+
+        }
+         input
+        {
+            height:50px;
+            width:750px;
+            border-radius:30px;
+            padding: 20px;
+            margin-top:15px;
+
+        }
+        .middle-icon
+        {
+            border: 1px solid black;
+        }
+        .img 
+        {
+         height:50px;
+         width:300px;
+         margin:15px 30px;
+         border: 1px solid black;
+         display: inline-block;
+         padding-left:50px;
+         padding-top:10px;
+        }
+        img
+        {
+            padding-left:20px;
+        }
+        i
+        {
+            padding-top:5px;  
+        }
+
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-top">
+                <div class="top-menu">
+                    <ul>
+                        <li><a href="#">Sell Courses</a></li>
+                        <li><a href="#">List Bussiness</a></li>
+                        <li><a href="#">Become a partner</a></li>
+                    </ul>
+                </div>
+                <div class="top-right">
+                    <span>&#128241;</span>
+                    <a href="#">Download App</a>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="middle-text">
+                    <img
+                        src="https://cdn.digitalclassworld.com/public/logonew.png">
+                </div>
+                <div class="middle-cetegari">
+                    <a href="#">Categories</a>
+                    <i class="fa-solid fa-angle-down"></i>
+
+                </div>
+                <div class="middle-search">
+                    <input type="text" placeholder="Search Courses, Institutions or Services">
+                    <img src="https://img.icons8.com/material-sharp/24/null/search.png"/>
+                </div>
+                <div class="middle-icon">
+                    <div class="img">
+                    <img
+                        src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/30/null/external-help-support-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"
+                        alt="">
+                    <img src="https://img.icons8.com/ios/30/null/like--v1.png">
+                    <img
+                        src="https://img.icons8.com/ios/30/null/shopping-cart--v1.png"
+                        alt="Checkout">
+                    <img
+                        src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png"
+                        alt="Account">
+                    </div>
+                </div>
+
+            </div>
+            <div class="header-bottum">
+                <ul>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">Browse Institutions</a></li>
+                    <li><a href="#"> Ed-Tech Companies</a></li>
+                    <li><a href="#"> Institutes</a></li>
+                    <li><a href="#"> Schools</a></li>
+                    <li><a href="#"> Colleges</a></li>
+                    <li><a href="#"> Edu. Apps</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </body>
+</html>
