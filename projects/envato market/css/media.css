@@ -1,0 +1,399 @@
+@media(max-width:500px) {
+
+    /* body{
+        overflow-x: hidden;
+      } */
+    .header-container {
+        grid-template-columns: 1fr;
+        display: none;
+    }
+
+    .lte-navbar1 {
+        grid-template-columns: 1fr;
+    }
+
+    .lte-navbar-items li {
+        margin: 0px;
+        display: none;
+    }
+
+    .lte-navbar-logo li {
+        display: none;
+    }
+
+    .lte-navbar-logo span {
+        top: 30%;
+        left: 68%;
+        display: none;
+    }
+
+    .slowFade {
+        height: 650px;
+    }
+
+    .svg-img svg {
+        top: 550px;
+        left: 0;
+    }
+
+    .slide-text {
+        width: 100%;
+        top: 50px;
+        left: 0px;
+    }
+
+    .slide-text h1 {
+        font-size: 50px;
+    }
+
+    .read-more h1 {
+        font-size: 20px;
+    }
+
+    .read-more {
+        width: 250px;
+        height: 70px;
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+    .slide-text1 {
+        width: 100%;
+        top: 50px;
+        left: 0px;
+    }
+
+    .slide-text1 h1 {
+        font-size: 50px;
+    }
+
+    .read-more1 h1 {
+        font-size: 20px;
+    }
+
+    .lte-header {
+        margin: 0px;
+
+    }
+
+    .read-more1 {
+        width: 250px;
+        height: 70px;
+        margin-left: 130px;
+        margin-top: 30px;
+    }
+
+    .arrow1 {
+        top: 400px;
+        left: 350px;
+    }
+
+    .arrow {
+        left: 45px;
+    }
+
+    .elementor-spacer1 {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-img {
+        grid-template-columns: 1fr;
+    }
+
+    .photo-img-man img {
+        padding: 0;
+        width: 100%;
+    }
+
+    .photo-img-tenk img {
+        display: none;
+    }
+
+    .elementor-spacer-text {
+        height: 200px;
+        top: 290px;
+        left: 150px;
+    }
+
+    .text-x {
+        padding-left: 0px;
+    }
+
+    .text-x p {
+        text-align: center;
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    .text-x h1 {
+        font-size: 30px;
+        color: #0a306c;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .text-x h3 {
+        color: #0a306c;
+        line-height: 30px;
+        padding-inline: 20px;
+        text-align: center;
+    }
+
+    .text-x li {
+        color: #0a306c;
+        font-size: 15px;
+        list-style-type: none;
+    }
+
+    .text-x li .fa-check-circle {
+        color: #E8BC5A;
+        margin: 10px;
+    }
+
+    .button {
+        width: 180px;
+        height: 60px;
+        margin-left: 100px;
+    }
+
+    .button h1 {
+        font-size: 20px;
+        top: -5px;
+    }
+
+    .Organic-Milk-text h1 {
+        font-size: 30px;
+    }
+
+    .Our-Products {
+        margin-top: 0px;
+    }
+
+    .Our-Products-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px;
+    }
+
+    .Organic-Milk-img {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .Organic-Milk-img {
+        padding-inline: 0px;
+        grid-template-rows: 350px;
+
+    }
+
+    .Organic-Milk-img-cream h2 {
+        top: 230px;
+        left: 35px;
+    }
+
+    .Organic-Milk-img-arrow {
+        top: 220px;
+    }
+
+    .Our-Products-manu1 {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .lte-header {
+        font-size: 30px;
+        text-align: center;
+        margin-inline: 70px;
+        margin-left: 70px;
+
+    }
+
+    .Our-Products-manu-text p {
+        font-size: 20px;
+        margin: 20px;
+        color: #0a306c;
+        line-height: 30px;
+        text-align: center;
+        margin-inline: 50px;
+        margin-left: 50px;
+    }
+
+    .Our-Products-manu-icon {
+        grid-template-rows: 1fr;
+        width: 100%;
+    }
+
+    .Our-Products-manu-text ul li {
+        display: inline-block;
+        margin-left: 20px;
+        transition: 0.4s;
+
+    }
+
+    .Our-Products-manu-text .read-more {
+        height: 70px;
+        width: 200px;
+        margin-left: 140px;
+    }
+
+    .Our-Products-manu-text .text {
+        font-size: 30px;
+        padding-left: 100px;
+        margin-top: 200px;
+    }
+
+    .text {
+        background-position: 55px 0px;
+    }
+
+    .Organic-Products {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Our-Products-manu-img {
+        display: none;
+    }
+
+    .Organic-Products-text {
+        top: 0px;
+        left: 150px;
+    }
+
+    .Organic-Products-text p {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .About-company {
+        width: 100%;
+    }
+
+    .About-company-box {
+        width: 100%;
+    }
+
+    .About-company-box1 {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .About-company-box-ing .read-more-button {
+        top: 340px;
+    }
+
+    .Regular-Control {
+        width: 100%;
+        grid-template-columns: 1fr;
+
+    }
+
+    .Regular-Control-text {
+        padding: 0px;
+    }
+
+    .Regular-Control-text h1 {
+        font-size: 32px;
+        text-align: center;
+
+    }
+
+    .Regular-Control-text h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Regular-Control-text p {
+        text-align: center;
+    }
+
+    .Regular-Control-text .read-more {
+        margin-left: 110px;
+    }
+
+    .Regular-Control-populated {
+        /* height: auto; */
+        width: 100%;
+        /* border: 1px solid black; */
+        position: absolute;
+        top: 1000px;
+        left: 0px;
+        background-color: #E8BC5A;
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 800px;
+    }
+
+    .Regular-Control-populated1 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 25px;
+    }
+
+    .reviw img {
+        margin-left: 180px;
+    }
+
+    .part-2 {
+        height: 320px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .Regular-Control-text img {
+        display: none;
+    }
+
+
+    .Testimonials {
+        /* display: none; */
+        margin-top: 1200px;
+    }
+
+    .Testimonials-buttan1,
+    .Testimonials-buttan2 {
+
+        top: 350px;
+        left: 10px;
+    }
+
+    .Testimonials-buttan2 {
+
+        top: 350px;
+        left: 430px;
+    }
+
+    .Stefanie-Rashford-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Stefanie-Rashford-img .read-more {
+        margin-left: 120px;
+    }
+
+    .Mildar-futar img {
+        margin-top: 70px;
+        height: 10%;
+        width: 30%;
+    }
+
+    .Mildar-futar-text {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+
+    .Mildar-futar-line {
+        border-left: none;
+    }
+
+    .Mildar-futar-icon {
+        margin: 200px auto;
+    }
+
+    .Mildar-futar .wave {
+        display: none;
+    }
+
+}

@@ -1,0 +1,219 @@
+@media(max-width:500px){
+    nav{
+        display: none;
+    }
+  .logo-text{
+    width: 100%;
+    text-align: center;
+    position: relative;
+  } 
+.logo-text .goldsmith-svg-icon{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    right: 2%;
+}
+    .fa-bars{
+        display: block;
+        cursor: pointer;
+        left:6%;
+    }
+    .action-area{
+        display: none;
+    }
+    .banner-1{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    .banner-1-slider{
+        width: 99%;
+        height: 350px;
+        border-radius: 13px;
+        margin-inline: 13px;
+       padding-top: 4px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 122% 100%;
+        background-position-x: -42px;
+        background-position-y: -4px;
+    }
+    .banner-1-slider h2{
+        color: white;
+        font-size: 27px;
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+        margin-left: 23px;
+        margin-top: 53px;
+    }
+    .banner-1-slider p{
+        color: white;
+        font-size: 14px;
+        padding-top: 27px;
+        line-height: 24px;
+        padding-inline-start: 23px;
+        padding-inline-end: 20px;
+    }
+    .banner-1-slider button{
+        transform: translate(27px,32px);
+        margin-right: 3px;
+        width: 150px;
+        height: 40px;
+        border: none;
+        background-color: black;
+        color: white;
+        transition: 0.4s;
+    
+    }
+    .banner-1-img{
+        width: 450px;
+        height: 400px;
+        border-radius: 34px;
+        margin:10px;
+        border: 1px solid;
+       background: url(https://f8g8b9p5.rocketcdn.me/themes/goldsmith/wp-content/uploads/2022/12/7.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -170px;
+    }
+    .banner-1-img p{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 300px;
+    }
+    .facilitiess-section img{
+        margin-left: 44%; 
+       }
+    .facilitiess-section{
+        width: 100%;
+    }
+    /* new section start */
+    .main{
+        height: auto;
+    }
+    .main .poster{
+        width: 100%;
+        height: 450px;
+        margin-bottom: 15px;
+    }
+    
+    .main .poster img{
+        object-fit: cover;
+    }
+    
+    .main .prd_contaner{
+        width: 100%;
+    }
+    
+    .main .prd_contaner .prd{
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    
+    .main .prd_contaner .prd_info{
+        padding-bottom: 15px;
+    }
+    /* new section end */
+    /* new season start */
+    .new-season{
+        width: 100%;
+        height: 400px;
+    }
+    .new-season-info{
+        height: 400px;
+        padding-top: 80px;
+    }
+    
+    .new-season-info button{
+        transform: translateX(-50px);
+        height: 22px;
+    }
+    .new-season-info h1{
+        color: white;
+        font-size: 17px;
+    }
+    .new-season-info p{
+       font-size: 12px;
+       text-align: center;
+       padding-inline:18px;
+    }
+    .new-season-info .view-season-btn{
+        transform: translate(-60px,32px);
+    }
+    /* new season end */
+  /* client-slider start */
+
+
+
+.slider-info
+{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.slider-heading h2{
+    text-align: center;
+}
+
+.slider-heading p{
+   padding-inline: 0px;
+}
+.slide-div{
+   width: 30%;
+   height: 30%;
+}
+
+/* client-slider end */
+/* contact-area-start */
+.contact-of-site{
+    width: 1005;
+    margin-top: 44px;
+    height: 265px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-of-site .contact-area,.contact-form{
+  width: 100%;
+}
+.contact-of-site .contact-area h6,.contact-area h1,.contact-area h5{
+    text-align: center;
+}
+
+.contact-form h6{
+    padding-inline:20px;
+    text-align: center;
+     }
+     .contact-form input{
+       margin-left: 53px;
+     }
+    
+     .contact-form b{
+        padding-inline-start: 0px;
+        padding-right: 0px;  
+     }
+   .footer-top .list,.footer-top .list2{
+      width: 100%;
+     height: 300px;
+   }
+   .footer-top ul{
+    margin-left: 123px;
+   }
+.list-icon{
+    transform: translate(123px,23px);
+}
+.footer-top .list2 ul{
+    margin-top: 33px;
+    margin-left: 13px;
+  }
+
+  .content-1,.content-2,.content-3{
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+  }
+  
+
+}
+    

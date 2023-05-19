@@ -1,0 +1,91 @@
+@media(max-width:500px) {
+    .header .logo {
+        width: 100%;
+    }
+
+    .header .nav {
+        width: 100%;
+    }
+
+    .header .btn {
+        width: 100%;
+    }
+
+    .header .nav li {
+        display: block;
+    }
+
+    .banner .info {
+        width: 100%;
+    }
+
+    .banner .bannerImg {
+        width: 100%;
+    }
+
+    .box .app_img {
+        width: 100%;
+    }
+
+    .h2 {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .ourmanu {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .Explore h1 {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .phone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text {
+        width: 100%;
+        padding: 0px;
+    }
+.footer-wrapper
+{
+    width: 100%;
+}
+.Menu
+{
+    width: 100%;
+}
+.COMPANY
+{
+    width: 100%;
+}
+.PIZZA-RESTAURANTS
+{
+    width: 100%;
+}
+.COMPANYRESTAURANTS
+{
+    width: 100%;
+}
+.ABOUT
+{
+    width: 100%;
+}
+.LEGAL
+{
+    width: 100%;
+}
+.SOCIAL-MEDIA
+{
+    width: 100%;
+}
+
+}

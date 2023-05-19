@@ -1,0 +1,396 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: auto;
+    /* background: lightblue; */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.header .logo {
+    height: 100px;
+    width: 30%;
+    /* background: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav {
+    height: 100px;
+    width: 50%;
+    /* background: gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header .btn {
+    height: 100px;
+    width: 20%;
+    /* background: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .btn button {
+    background: #f3223b;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+}
+
+.banner {
+    /* height:450px; */
+    background: #1a5ca3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner .info {
+    /* height: 350px; */
+    width: 40%;
+    /* background: red; */
+    padding: 150px 0 0 40px;
+
+}
+
+h1 {
+    color: #fff;
+    font-size: 37px;
+}
+
+.banner .info p {
+    color: #47a0ff;
+    font-size: 20px;
+}
+
+.banner .bannerImg {
+    height: 450px;
+    width: 60%;
+    /* background:green; */
+}
+
+.banner .order {
+    margin: 20px 0;
+}
+
+.banner .order button {
+    height: 50px;
+    width: 400px;
+    background-color: #1fb31a;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+.home {
+    /* padding: 10px 16px; */
+    padding-bottom: 60px;
+    list-style: none;
+    /* background-color: #eee; */
+    /* background: #1fb31a; */
+    color: #0275d8;
+    padding: 20px;
+}
+
+.offers {
+    height: auto;
+    width: 100%;
+    /* background-color: #f3223b; */
+}
+
+.h2 {
+    height: 50px;
+    border: 1px solid white;
+    color: #708aa5;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.box {
+    height: auto;
+    /* border: 1px solid gold; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.box .app_img {
+    height: 350px;
+    width: 40%;
+    /* border: 2px solid blue; */
+    margin: 10px;
+}
+
+.Explore {
+    height: auto;
+    width: 100%;
+    /* background: #47a0ff; */
+
+}
+
+.Explore h1 {
+    color: #708aa5;
+    margin-left: 125px;
+
+}
+
+.Explore-box {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    /* padding-bottom:50px; */
+}
+
+.ourmanu {
+    height: 330px;
+    width:24%;
+    border: 1px dotted black;
+    text-align: center;
+    margin:5px;
+
+}
+
+.ourmanu h3 {
+    margin-top: 20px;
+    padding-bottom: 20px;   
+}
+
+.ourmanu button {
+    height: 50px;
+    width:100%;
+    /* border-top: 1px dotted black; */
+}
+
+.ourmanu2 {
+    height: 80%;
+    width:100%;
+    /* border: 1px solid black; */
+    padding-top: 30px;   
+    color: #2b4547;
+}
+
+.ourmanu3 {
+    height: 20%;
+    width:100%;
+    border-top: 1px dotted black;
+    padding: 20px;
+    color: #f3223b;
+
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    background: #ecf4fc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    /* padding:100px; */
+    padding-bottom: 40px;
+}
+
+.phone {
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+
+.text {
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 100px 0 0 40px;
+
+}
+
+.text h1 {
+    font-size: 45px;
+    padding: 20px;
+    color: #59688c;
+}
+
+.text p {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 50px;
+    color: #8899c0;
+
+}
+
+.text img {
+    margin: 20px;
+}
+
+.seo-content-start {
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+}
+
+.content-h3 {
+    color: #006491;
+    font-size: 30px;
+    line-height: 40px;
+    padding-left: 40px;
+}
+
+.content-p {
+    color: #54565b;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 20px;
+    padding-left: 20px;
+
+}
+.button
+{
+   height:auto;
+   width: 100%;
+   /* border: 1px solid black; */
+   padding:20px;
+   line-height:30px;
+   font-size: 20px;
+  
+}
+.button button
+{
+    margin:5px;
+    box-shadow:0 0 2px gray;
+}
+.footer-wrapper
+{
+    height:auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #222e3a;
+}
+.footer-wrapper h3
+{
+ color: #546273;
+ font-size:20px;
+}
+.Menu
+{
+    height:400px;
+    width:15%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.COMPANY
+{
+    height:400px;
+    width:15%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.PIZZA-RESTAURANTS
+{
+    height:400px;
+    width:15%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.ABOUT
+{
+    height:400px;
+    width:20%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.LEGAL
+{
+    height:400px;
+    width:15%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.SOCIAL-MEDIA
+{
+    height:400px;
+    width:20%;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.Menu li
+{
+    list-style-type:none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.COMPANY li
+{
+    list-style-type:none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.PIZZA-RESTAURANTS li
+{
+    list-style-type:none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.ABOUT li
+{
+    list-style-type:none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.LEGAL li
+{
+    list-style-type:none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.SOCIAL-MEDIA img
+{
+    padding:10px;
+    margin-top:30px;
+}
+.copyright
+{
+    height: 80px;
+    width: 100%;
+    border:1px dotted #526274;
+    background-color: #1a2735;
+}
+.copyright p
+{
+    text-align: center;
+    margin-top:25px;
+    color: #5c6f83;
+}

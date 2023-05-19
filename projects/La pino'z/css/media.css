@@ -1,0 +1,173 @@
+@media(max-width:500px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .links li {
+        display: block;
+        padding: 10px;
+    }
+
+    .slide-text h1 {
+        font-size: 35px;
+    }
+
+    .slide-text h2 {
+        font-size: 30px;
+    }
+
+    .slide-text h3 {
+        font-size: 25px;
+    }
+
+    .slide-text h4 {
+        font-size: 18px;
+    }
+
+    .select {
+        width: 400px;
+        background-color: transparent;
+    }
+
+    .select select {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .banner-img {
+        margin-left: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .banner0 h1 {
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .banner-img img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;
+    }
+
+    .templete img {
+        height: 250px;
+        width: 490px;
+    }
+
+    .common-heading1 {
+        grid-template-columns: 1fr;
+    }
+
+    .icon ul li .list span {
+        width: 250px;
+    }
+
+    .pizza img {
+        height: 400px;
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    .icon ul li .list span {
+        font-size: 13px
+    }
+
+    .icon ul li .list {
+        font-size: 20px;
+    }
+
+    .heading-img1 {
+        grid-template-columns: 1fr;
+    }
+
+    .outer-card {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+
+    .Explore1 {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .Explore-menu1
+    {
+        grid-template-columns: 1fr ;   
+    }
+    .Explore-menu h1
+    {
+    margin-left:160px;
+    }
+    .Explore-menu-pizza img
+    {
+    width:390px; 
+   }
+   .common-sec1
+   {
+    grid-template-columns: 1fr;
+   }
+   .common-sec h2
+   {
+    font-size:35px;
+    margin-left:70px;
+   }
+
+   .banner-slide1 
+   {
+    height:250px;
+    width:100%;
+    
+   }
+   .slick-slide1
+   {
+    height: 450px;
+   }
+   .slick-slide-text
+   {
+    height:250px;
+    width:90%;
+    line-height:30px;
+   }
+ .slick-slide-img img
+  {
+  height:60px;
+  width:60px;
+  margin-right:300px;
+  }
+
+  .city-name h1
+  {
+    font-size:25px;
+    margin-left:90px;
+  }
+  .city-name1
+  {
+    width: 100%;
+  }
+
+  .footer1
+  {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .footer-text h2
+  {
+    font-size:25px;
+  }
+  .footer-text li
+  {
+    font-size:20px;
+  }
+  .footer-bottom p
+  {
+    margin:100px;
+  }
+}
