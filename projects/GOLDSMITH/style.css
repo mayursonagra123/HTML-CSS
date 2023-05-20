@@ -674,12 +674,13 @@ display: flex;
 .main_2 .featured_title_1 h3{
     display: inline-block;
     letter-spacing: 1px;
+    font-size: 22px;
 }
 
 .main_2 .featured_title_1 p{
     display: inline;
     float: right;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 1px;
     margin-top: 4px;
@@ -703,8 +704,8 @@ display: flex;
 }
 
 .main_2 .featured_contaner .featured_deal .deal_image .image{
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     /* border: 2px solid red; */
     border-radius: 5px;
     overflow: hidden;
@@ -723,29 +724,29 @@ display: flex;
 }
 
 .featured_deal .deal_image .image_info h4, span{
-    font-size: 13px;
+    font-size: 18px;
     color: #060606;
     letter-spacing: 1px;
 }
 
 .featured_deal .deal_image .image_info p{
-    font-size: 13px;
+    font-size: 15px;
     color: #7d7d7d;
     padding: 8px 0px;
 }
 
 .featured_deal .deal_btn button{
-    width: 100px;
+    width: 140px;
     color: #f70000;
-    font-size: 12px;
+    font-size: 14px;
     background-color: #ffdbdc;
     border: 1px solid #ffbfc1;
     border-radius: 5px;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .featured_deal .deal_btn span{
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 600;
     color: #7d7d7d;
     padding-left: 3px;
@@ -757,11 +758,12 @@ display: flex;
 .main_2 .featured_title_2 h3{
     letter-spacing: 1px;
     padding: 35px 0px 0px;
+    font-size: 24px;
 }
 
 .main_2 .featured_contaner .featured_deal_2{
     border-radius: 10px;
-    padding: 35px;
+    padding: 50px 80px;
     margin-top: 20px;
     background-color: black;
     color: white;
@@ -772,8 +774,8 @@ display: flex;
 }
 
 .featured_deal_2 .deal_image .image{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     /* border: 2px solid red; */
     border-radius: 50%;
     overflow: hidden;
@@ -787,17 +789,17 @@ display: flex;
 }
 
 .featured_deal_2 .deal_image .image_info h5{
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
 .featured_deal_2 .deal_image .image_info p{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .featured_deal_2 .review{
     margin-top: 30px ;
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
     line-height: 25px;
 }
@@ -855,12 +857,13 @@ display: flex;
 
 .featured_prd_contaner .prd_contaner .prd{
     width: 22%;
+    /* height: 400px; */
     /* border: 1px solid green; */
 }
 
 .featured_prd_contaner .prd_contaner .prd_image{
     /* border: 2px solid darkblue; */
-    height: 215px;
+    height: 270px;
     overflow: hidden;
     position: relative;
 }
@@ -878,7 +881,7 @@ display: flex;
 .featured_prd_contaner .prd_contaner .prd_image .read_more{
     width: 100%;
     height: 15%;
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     text-align: center;
     line-height: 225%;
@@ -911,8 +914,8 @@ display: flex;
 .featured_prd_contaner .prd_contaner .prd_image .fa-heart{
     display: block;
     width: 30px;
-    height: 30px;
-    font-size: 14px;
+    height: 35px;
+    font-size: 16px;
     background-color: white;
     border-radius: 50%;
     text-align: center;
@@ -959,11 +962,11 @@ display: flex;
 }
 
 .featured_prd_contaner .prd_contaner .prd_info h5{
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .featured_prd_contaner .prd_contaner .prd_info p{
-    font-size: 13px;
+    font-size: 20px;
     color: #7a7a7a;
 }
 
@@ -998,8 +1001,8 @@ display: flex;
 .main_2 .featured_prd .sale_lable .sale{
     width: 13%;
     /* border: 1px solid red; */
-    line-height: 95px;
-    font-size: 19px;
+    line-height: 110px;
+    font-size: 22px;
     font-weight: bolder;
     letter-spacing: 2px;
     text-align: center;
@@ -1010,12 +1013,12 @@ display: flex;
 .main_2 .featured_prd .sale_lable .sale_info{
     width: 54%;
     line-height: 28px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
 .main_2 .featured_prd .sale_lable .sale_info h4{
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .main_2 .featured_prd .sale_lable .sale_info span{
@@ -1026,9 +1029,9 @@ display: flex;
 
 .main_2 .featured_prd .sale_lable .sale_buynow{
     width: 33%;
-    line-height: 95px;
+    line-height: 110px;
     text-align: right;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 900;
 }
 
@@ -1059,7 +1062,7 @@ display: flex;
 
 .surprise_contaner .surprise_title{
     border: 2px solid red;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
     background-color: #fac2131c;
     border: 1px dashed #fac213;
@@ -1067,25 +1070,25 @@ display: flex;
 }
 
 .surprise_contaner .surprise_title h5{
-    font-size: 15px;
+    font-size: 18px;
     padding-bottom: 22px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .surprise_contaner .surprise_title p{
-    height: 40px;
-    font-size: 14px;
+    height: 50px;
+    font-size: 16px;
     letter-spacing: 1px;
-    font-weight: 900;
+    /* font-weight: 900; */
     color: #060606;
     background-color: #fac213;
     border-radius: 30px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .surprise_contaner .surprise_deal_image1{
-    height: 220px;
+    height: 280px;
     /* border: 1px solid red; */
     border-radius: 5px;
     background: url(../Images/background-10-500x500.webp);
@@ -1096,15 +1099,15 @@ display: flex;
 }
 
 .surprise_contaner .com_class p{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 14px;
 }
 
 .surprise_contaner .com_class span{
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .surprise_contaner .surprise_deal_image2{
@@ -1138,17 +1141,16 @@ display: flex;
 
 .surprise_contaner .surprise_info .info{
     border-bottom: 2px solid #e1e2e3;
-    line-height: 25px;
+    line-height: 40px;
     padding: 20px;
 }
 
 .surprise_contaner .surprise_info .info h5{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .surprise_contaner .surprise_info .info span{
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 14px;
     color: #7d7d7d;
 }
 
@@ -1175,13 +1177,13 @@ display: flex;
 .deals_prd .deals_title h4{
     width: 20%;
     /* border: 1px solid red; */
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .deals_prd .deals_title p{
     width: 70%;
     /* border: 1px solid red; */
-    font-size: 14px;
+    font-size: 18px;
     color: #7d7d7d;
     line-height: 32px;
 }
@@ -1190,7 +1192,7 @@ display: flex;
     width: 10%;
     /* border: 1px solid red; */
     display: inline;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 32px;
     text-align: right;
 }
@@ -1221,7 +1223,7 @@ display: flex;
 
 .deals_of_week .deals_prd .prd_contaner .prd_image{
     /* border: 2px solid darkblue; */
-    height: 185px;
+    height: 280px;
     border-radius: 5px;
     overflow: hidden;
     position: relative;
@@ -1272,13 +1274,13 @@ display: flex;
     height: 50%;
     /* background-color: lightblue; */
     position: absolute;
-    top: 21%;
+    top: 15%;
     right: -16%;
     transition: 0.1s;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd:hover .hover_icons{
-    right: 12px;
+    right: 0px;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_image .hover_icons i{
@@ -1299,25 +1301,24 @@ display: flex;
 
 .deals_of_week .deals_prd .prd_contaner .prd_info{
     padding-top: 10px;
-    line-height: 25px;
+    line-height: 40px;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_info h5{
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_info div span img{
-    margin: 0px -3px;
+    margin: 0px -4px;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_info div a{
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 15px;
     padding-left: 15px;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_info p{
-    font-size: 13px;
+    font-size: 18px;
     color: #7a7a7a;
 }
 
@@ -1327,11 +1328,11 @@ display: flex;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_info .sold_available .sold{
-    width: 52%;
+    width: 50%;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd_info .sold_available .available{
-    width: 48%;
+    width: 50%;
 }
 
 .deals_of_week .deals_prd .prd_contaner .prd:hover span img{
@@ -1343,6 +1344,7 @@ display: flex;
 /* <!-- Deal Big Poster START --> */
 
 .deals_of_week .deals_prd .deal_big_poster{
+    /* height: 800px; */
     /* border: 2px solid red; */
     background: #f7f7f8;
     background-size: 100% 100%;
@@ -1356,13 +1358,13 @@ display: flex;
 .deals_of_week .deals_prd .deal_big_poster .poster_info{
     width: 40%;
     /* border: 2px solid black; */
-    padding: 120px 0px 120px 30px;
+    padding: 180px 0px 180px 30px;
     border-radius: 10px;
 }
 
 .deals_of_week .deals_prd .deal_big_poster .poster_info p{
     display: inline-block;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: 900;
     letter-spacing: 3px;
     padding: 5px 15px;
@@ -1371,13 +1373,14 @@ display: flex;
 }
 
 .deals_of_week .deals_prd .deal_big_poster .poster_info h2{
-    font-size: 30px;
+    font-size:45px;
     padding: 15px 0px;
 }
 
 .deals_of_week .deals_prd .deal_big_poster .poster_info span{
-    font-size: 12px;
+    font-size: 15px;
     color: #7d7d7d;
+    line-height: 30px;
 }
 
 .deals_of_week .deals_prd .deal_big_poster .poster_info .count{
